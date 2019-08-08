@@ -70,7 +70,7 @@ captmschapv2: Thu Aug  8 15:58:59 2019
 > EAP-TTLS/CHAP
 > EAP-TTLS/PAP
 
-[./Screenshots/capture1.png]
+![](./Screenshots/capture1.png)
 
 
 ## In case of problems...
