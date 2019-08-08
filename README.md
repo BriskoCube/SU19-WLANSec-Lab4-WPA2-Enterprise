@@ -70,7 +70,15 @@ captmschapv2: Thu Aug  8 15:58:59 2019
 > EAP-TTLS/CHAP
 > EAP-TTLS/PAP
 
+
+
+
+
 ![](https://raw.githubusercontent.com/BriskoCube/SU19-WLANSec-Lab4-WPA2-Enterprise/master/Screenshots/capture1.jpg)
+
+![](https://raw.githubusercontent.com/BriskoCube/SU19-WLANSec-Lab4-WPA2-Enterprise/master/Screenshots/capture2.jpg)
+
+**SSID Changed ! **
 
 
 ## In case of problems...
