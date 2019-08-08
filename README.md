@@ -41,19 +41,36 @@ How to run the attack:
 
 > **_Question :_** What options did you have to modify in the hostapd-wpe configuration file in order to make the attack work ?
 > 
-> **_Answer:_** 
+> **_Answer:_** The SSID of the fake access point at the beginning of the config file. We can use an existing access point SSID to capture clients hashes or password.
 
 ---
 
 > **_Question:_** What type of hash did you capture ?
 > 
-> **_Answer:_** 
+> **_Answer:_** NETNTLMV1 (with PEAP/MSCHAPV2)
+
+```
+captmschapv2: Thu Aug  8 15:58:59 2019
+   username:  hehep
+   challenge:  80:af:db:3f:4b:51:fb:4c
+   response:  04:f2:c7:7e:ca:2a:22:8d:77:52:ff:3d:02:e7:3c:6c:7d:95:68:7c:f8:0d:03:bd
+   jtr NETNTLM:  hehep:$NETNTLM$80afdb3f4b51fb4c$04f2c77eca2a228d7752ff3d02e73c6c7d95687cf80d03bd
+```
 
 ---
 
 > **_Question:_** Which authentication methods are supported by hostapd-wpe ?
-> 
+>
 > **_Réponse:_**
+>
+> EAP-FAST/MSCHAPv2
+> PEAP/MSCHAPv2
+> EAP-TTLS/MSCHAPv2
+> EAP-TTLS/MSCHAP
+> EAP-TTLS/CHAP
+> EAP-TTLS/PAP
+
+[./Screenshots/capture1.png]
 
 
 ## In case of problems...
